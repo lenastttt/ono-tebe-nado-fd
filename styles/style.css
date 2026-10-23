@@ -1,5 +1,5 @@
 body {
-width: 1100px;
+min-width: 1100px;
 }
 
 .header {
@@ -32,7 +32,7 @@ list-style: none;
 }
 
 .header__link {
-text-decoration-skip-ink: none; 
+text-decoration-skip-ink: none;
 text-decoration-thickness: 1px;
 text-underline-offset: 4px;
 }
@@ -52,7 +52,6 @@ max-width: 240px;
 width: 100%;
 height: 98px;
 font-size: 18px;
-line-height: 24.3px;
 line-height: 24.3px;
 font-style: normal;
 font-family: 'Raleway', sans-serif;
@@ -79,10 +78,10 @@ text-underline-offset: 4px;
 .cover {
 min-height: 757px;
 background-image: url(../images/cover.jpg);
-background-size: cover;       
-background-position: center;   
-position: relative;                            
-overflow: hidden;   
+background-size: cover;
+background-position: center;
+position: relative;                  
+overflow: hidden;
 z-index: 0;
 width: 100%;
 height: 100%;
@@ -112,17 +111,17 @@ text-align: center;
 position: absolute;
 }
 
-.cover-title-this{
+.cover-title-this {
 top: 168px;
 left: 50px
 }
 
-.cover-title-you{
+.cover-title-you {
 top: 303px;
 left: 380.5px;
 }
 
-.cover-title-need{
+.cover-title-need {
 top: 438px;
 left: 664px;
 }
@@ -156,7 +155,7 @@ text-transform: uppercase;
 color: white;
 background-color: rgba(255, 255, 255, 0);
 border-color: white;
-padding: 16px 32px;  
+padding: 16px 32px;
 border-width: 1px;
 }
 
@@ -175,6 +174,7 @@ text-transform: uppercase;
 position: relative;
 bottom: 30px;
 left: 65px;
+max-width: 100%
 }
 
 .lots-card-list {
@@ -213,7 +213,7 @@ margin:0;
 padding-left: 40px;
 padding-top: 48px;
 max-width: 300px;
-z-index: 2; 
+z-index: 2;
 }
 
 .card-text {
@@ -259,12 +259,13 @@ height: 100%;
 
 .lots-look-more-link {
 font-size: 20px;
-margin-top: 40px; 
+margin-top: 40px;
 margin-left: 40px;
 text-decoration: underline;
 position: relative;
 left: 25px;
 bottom: 8px;
+max-width: 100%
 }
 
 .about {
@@ -299,6 +300,7 @@ margin-top: 100px;
 margin-bottom: 100px;
 position: relative;
 left: 50px;
+max-width: 100%
 }
 
 .about-text {
@@ -327,7 +329,6 @@ width: 100%;
 height: 98px;
 font-size: 18px;
 line-height: 24.3px;
-line-height: 24.3px;
 font-style: normal;
 font-family: 'Raleway', sans-serif;
 display: flex;
@@ -337,7 +338,7 @@ top: 11px;
 left: 14px;
 }
 
-.footer-menu{
+.footer-menu {
 display: flex;
 flex-direction: column;
 justify-content: center;
