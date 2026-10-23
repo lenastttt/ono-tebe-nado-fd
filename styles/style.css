@@ -86,7 +86,7 @@ min-height: 757px;
 background-image: url(../images/cover.jpg);
 background-size: cover;
 background-position: center;
-position: relative;             
+position: relative;         
 overflow: hidden;
 z-index: 0;
 width: 100%;
@@ -195,16 +195,6 @@ list-style: none;
 position: relative;
 }
 
-.card_type_book {
-position: relative;
-left: 5px;
-}
-
-.card_type_picture {
-position: relative;
-left: 10px;
-}
-
 .card, .card-link {
 height: 100%;
 }
@@ -257,6 +247,7 @@ background-image: url(../images/card-lot-02.jpg);
 background-position: center;
 background-size: cover;
 position: relative;
+left: 5px;
 }
 
 .card_type_picture {
@@ -264,6 +255,7 @@ background-image: url(../images/card-lot-03.jpg);
 background-position: center;
 background-size: cover;
 position: relative;
+left: 10px;
 }
 
 .overlay-film, .overlay-book, .overlay-picture {
